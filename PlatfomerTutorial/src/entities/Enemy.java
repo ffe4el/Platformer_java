@@ -1,7 +1,6 @@
 package entities;
 
 import static utilz.Constants.EnemyConstants.*;
-
 import static utilz.HelpMethods.*;
 
 import java.awt.geom.Rectangle2D;

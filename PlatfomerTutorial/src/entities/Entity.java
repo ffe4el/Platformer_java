@@ -1,7 +1,6 @@
 package entities;
 
 import java.awt.Color;
-
 import java.awt.Graphics;
 import java.awt.geom.Rectangle2D;
 
@@ -53,6 +52,10 @@ public abstract class Entity {
 
 	public int getAniIndex() {
 		return aniIndex;
+	}
+
+	public int getCurrentHealth() {
+		return currentHealth;
 	}
 
 }
