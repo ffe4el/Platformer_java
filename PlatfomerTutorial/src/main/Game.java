@@ -1,7 +1,6 @@
 package main;
 
 import java.awt.Graphics;
-
 import audio.AudioPlayer;
 import gamestates.GameOptions;
 import gamestates.Gamestate;
