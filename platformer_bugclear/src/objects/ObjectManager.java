@@ -100,7 +100,7 @@ public class ObjectManager {
 		for (int i = 0; i < cannonImgs.length; i++)
 			cannonImgs[i] = temp.getSubimage(i * 40, 0, 40, 26);
 
-		cannonBallImg = LoadSave.GetSpriteAtlas(LoadSave.CANNON_BALL);
+//		cannonBallImg = LoadSave.GetSpriteAtlas(LoadSave.CANNON_BALL);
 
 	}
 
