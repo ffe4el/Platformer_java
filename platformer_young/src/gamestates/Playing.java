@@ -275,6 +275,8 @@ public class Playing extends State implements Statemethods {
 			return;
 		}
 		this.lvlCompleted = levelCompleted;
+		 if (levelCompleted)
+	         game.getAudioPlayer().lvlCompleted();
 
 	}
 
