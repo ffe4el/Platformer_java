@@ -29,7 +29,7 @@ public class LoadSave {
 	public static final String URM_BUTTONS = "urm_buttons.png"; // resume, home, return button
 	public static final String VOLUME_BUTTONS = "volume_buttons.png";
 	public static final String MENU_BACKGROUND_IMG = "background_menu.png"; // 게임 시작 배경
-	public static final String PLAYING_BG_IMG = "school_bg.jpg"; // 게임 플레이 배경
+	public static final String PLAYING_BG_IMG = "playing_bg_img.png"; // 게임 플레이 배경
 	public static final String BIG_CLOUDS = "big_clouds.png"; // 게임 플레이 배경(구름)
 	public static final String SMALL_CLOUDS = "small_clouds.png"; // 게임 플레이 배경(구름)
 	public static final String CRABBY_SPRITE = "crabby_sprite.png"; // 적
