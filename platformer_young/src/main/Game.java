@@ -92,11 +92,10 @@ public class Game implements Runnable{
 			break;
 		}
 	}
-
+	
 	// 게임 프레임 관리
 	@Override
 	public void run() {
-
 		double timePerFrame = 1000000000.0 / FPS_SET;
 		double timePerUpdate = 1000000000.0 / UPS_SET;
 
@@ -105,7 +104,6 @@ public class Game implements Runnable{
 		int frames = 0;
 		int updates = 0;
 		long lastCheck = System.currentTimeMillis();
-
 		double deltaU = 0;
 		double deltaF = 0;
 
@@ -133,7 +131,6 @@ public class Game implements Runnable{
 				System.out.println("FPS: " + frames + " | UPS: " + updates);
 				frames = 0;
 				updates = 0;
-
 			}
 		}
 
