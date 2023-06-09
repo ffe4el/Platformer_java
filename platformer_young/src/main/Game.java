@@ -73,7 +73,6 @@ public class Game implements Runnable{
 		default:
 			System.exit(0);
 			break;
-
 		}
 	}
 
